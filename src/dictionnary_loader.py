@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 def load_loughran_mcdonald_dictionary(cache_dir=None, force_reload=False, quiet=True): 
     if cache_dir is None:
-        cache_dir = Path(os.getcwd()) 
+        cache_dir = Path(os.getcwd() + '/data')
     if isinstance(cache_dir, str):
         cache_dir = Path(cache_dir)
         
