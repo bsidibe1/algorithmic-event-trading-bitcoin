@@ -5,7 +5,6 @@ import requests
 from zipfile import ZipFile
 from pathlib import Path
 from io import BytesIO
-import gdown
 
 from bs4 import BeautifulSoup
 import sys
